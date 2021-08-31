@@ -8,8 +8,9 @@ Link: https://data.world/crowdflower/sentiment-analysis-in-text
 
 The dataset has 4 columns:
 
-tweets id : unique id for each tweets
-sentiments: the text emotion . There are 7 different emotions taken as label classes in the model. 
++ tweets id : unique id for each tweets
++ sentiments: the text emotion . There are 7 different emotions taken as label classes in the model. 
+
 ```
 + joy         
 + sadness      
@@ -19,11 +20,11 @@ sentiments: the text emotion . There are 7 different emotions taken as label cla
 + disgust       
 + shame         
 ```
-content: tweets 
-author: user who wrote those tweets
++ content: tweets 
++ author: user who wrote those tweets
 
 
-Scope:
+### Scope:
 Many times that people love to share their thoughts and feelings to their connections on social medias like facebook, twitter, instagram etc. There are various ways to share your thoughts on these platforms. One of the ways is with text images/ quote images. 
 So , the project is about finding the sentiments through text images.
 
@@ -74,7 +75,7 @@ D:.
         
    ```
 
-Folders/files Description:
+### Folders/files Description:
 
 1. src
 + Contains the data_preprocess.py which takes the input as string or text and removes all stopwords and punctuations and return clean text
@@ -94,20 +95,22 @@ The model folder consist of pickle ML model. The pickle operation is used to ser
 The pipenv environment locks the packages used in the project. Pipenv is a packaging tool for Python that solves some common problems associated with the typical workflow using pip , virtualenv , and the good old requirements. txt 
 
 How to run this repository:
-Pre-requisits: Install pipenv(sudo apt-get pipenv)
 
-Step 1: Setup
++ Pre-requisits: Install pipenv(sudo apt-get pipenv)
+
+#### Step 1: Setup
 Clone the repository.
 pipenv shell
 setup the folder
 
-Step 2: Run for py file
+#### Step 2: Run for py file
 Run "python app.py"
 
-Output:
+#### Output:
 Streamlit Gui Output of sentiment class with confidence score
 
-Image Output:
-![alt text](https://github.com/Bijay555/Leapfrog-ML-internship-Major-Project/blob/dev/images/output_images/Screenshot%20(439).png)
+#### Image Output:
+
+<img src="https://github.com/Bijay555/Leapfrog-ML-internship-Major-Project/blob/dev/images/output_images/Screenshot%20(439).png" width="200">
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-![alt text](https://github.com/Bijay555/Leapfrog-ML-internship-Major-Project/blob/dev/images/output_images/Screenshot%20(440).png)
+<img src="https://github.com/Bijay555/Leapfrog-ML-internship-Major-Project/blob/dev/images/output_images/Screenshot%20(440).png" width="200">
