@@ -111,6 +111,6 @@ Streamlit Gui Output of sentiment class with confidence score
 
 #### Image Output:
 
-<img src="https://github.com/Bijay555/Leapfrog-ML-internship-Major-Project/blob/dev/images/output_images/Screenshot%20(439).png" width="200">
+<img src="https://github.com/Bijay555/Leapfrog-ML-internship-Major-Project/blob/dev/images/output_images/Screenshot%20(439).png" width="600">
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-<img src="https://github.com/Bijay555/Leapfrog-ML-internship-Major-Project/blob/dev/images/output_images/Screenshot%20(440).png" width="200">
+<img src="https://github.com/Bijay555/Leapfrog-ML-internship-Major-Project/blob/dev/images/output_images/Screenshot%20(440).png" width="600">
