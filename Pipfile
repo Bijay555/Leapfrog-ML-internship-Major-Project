@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+streamlit = "==0.87.0"
+pytesseract = "==0.3.8"
+pillow = "==8.3.1"
+opencv-python = "==4.5.3.56"
+easyocr = "*"
+nltk = "*"
+joblib = "==1.0.1"
+sklearn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
